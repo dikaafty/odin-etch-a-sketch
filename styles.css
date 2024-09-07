@@ -77,3 +77,11 @@ body {
   display: grid;
   box-shadow: 0 0 10px black;
 }
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
