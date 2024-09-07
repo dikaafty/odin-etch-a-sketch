@@ -85,3 +85,52 @@ body {
   gap: 15px;
   margin: 10px 0;
 }
+
+.button button {
+  background-color: transparent;
+  color: #afdde5;
+  padding: 10px 20px;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.blackSpan {
+  background-color: #000000;
+}
+
+.greySpan {
+  background-color: grey;
+}
+
+.randomSpan {
+  background: linear-gradient(45deg, #00bfff, #ba55d3, #ffd700);
+}
+
+.eraserSpan {
+  background-color: white;
+}
+
+.blackSpan,
+.greySpan,
+.randomSpan,
+.eraserSpan,
+.resetSpan {
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.black:hover .blackSpan,
+.grey:hover .greySpan,
+.random:hover .randomSpan,
+.eraser:hover .eraserSpan {
+  width: 100%;
+}
