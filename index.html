@@ -35,11 +35,16 @@
       <div class="mode">Mode: Coloring</div>
       <div class="board"></div>
       <div class="button">
-        <button class="black" onclick="changeColor('black')"><span></span>Black</button>
-        <button class="grey" onclick="changeColor('grey')"><span></span>Grey</button>
-        <button class="random" onclick="changeColor('random')"><span></span>Random</button>
-        <button class="eraser" onclick="changeColor('white')"><span></span>Eraser</button>
-        <button class="reset" onclick="resetBoard()"><span></span>Reset</button>
+        <button class="black" onclick="changeColor('black')"><span 
+          class="blackSpan"></span>Black</button>
+        <button class="grey" onclick="changeColor('grey')"><span 
+          class="greySpan"></span>Grey</button>
+        <button class="random" onclick="changeColor('random')"><span 
+          class="randomSpan"></span>Random</button>
+        <button class="eraser" onclick="changeColor('white')"><span
+           class="eraserSpan"></span>Eraser</button>
+        <button class="reset" onclick="resetBoard()"><span 
+          class="resetSpan"></span>Reset</button>
       </div>
       <div>
         <input type="text" placeholder="Change Board Size..." value="16" 
