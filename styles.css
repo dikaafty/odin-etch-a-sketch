@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #024950;
+}
+
+.header {
+  background-color: #003135;
+}
+
 .board {
   width: 500px;
   height: 500px;
