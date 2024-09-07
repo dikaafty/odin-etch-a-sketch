@@ -86,7 +86,8 @@ body {
   margin: 10px 0;
 }
 
-.button button {
+.button button,
+.change {
   background-color: transparent;
   color: #afdde5;
   padding: 10px 20px;
@@ -117,7 +118,8 @@ body {
 .greySpan,
 .randomSpan,
 .eraserSpan,
-.resetSpan {
+.resetSpan,
+.changeSpan {
   height: 100%;
   width: 0;
   border-radius: 25px;
@@ -131,7 +133,8 @@ body {
 .black:hover .blackSpan,
 .grey:hover .greySpan,
 .random:hover .randomSpan,
-.eraser:hover .eraserSpan {
+.eraser:hover .eraserSpan,
+.change:hover .changeSpan {
   width: 100%;
 }
 
@@ -144,4 +147,12 @@ input {
   border: 2px solid #0fa4af;
   border-radius: 25px;
   font-size: 14px;
+}
+
+.change {
+  border: 2px solid #0fa4af;
+}
+
+.changeSpan {
+  background-color: #0fa4af;
 }
