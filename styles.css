@@ -27,6 +27,36 @@ body {
   font-size: 25px;
 }
 
+.header i {
+ font-size: 25px;
+ margin-left: 10px;
+}
+
+.header p {
+  font-size: 18px;
+  position: relative;
+}
+
+.header p::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #0fa4af;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.header p:hover::after {
+  width: 100%;
+}
+
+.header a {
+  text-decoration: none;
+  color: #afdde5;
+}
+
 .board {
   width: 500px;
   height: 500px;
