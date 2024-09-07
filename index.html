@@ -5,12 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etch a Sketch</title>
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- For Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div class="container">
+    <div class="header">
     <div class="title"><h1>Etch a Sketch</h1></div>
-    <div class="mode">Mode: Coloring</div>
+    <p>DIKAAFTY <a href=""><i class="fa-brands fa-github" 
+      style="color: #000000;"></i></a></p>
+    </div>
+
     <div class="content">
+      <div class="mode">Mode: Coloring</div>
       <div class="board"></div>
       <div class="button">
         <button class="black" onclick="changeColor('black')">Black</button>
